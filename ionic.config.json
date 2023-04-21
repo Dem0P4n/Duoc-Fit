@@ -1,0 +1,7 @@
+{
+  "name": "Duoc-Fit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
