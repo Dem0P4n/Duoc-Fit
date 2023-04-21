@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Blank
@@ -17,4 +17,84 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+</ion-content> -->
+
+
+<ion-header>
+  <ion-toolbar color="primary" class="ion-text-center" >
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false" color="secondary"></ion-menu-button>
+    </ion-buttons>
+     <a id="imagen-duoc">
+      <img  src="https://i.ibb.co/DthTgz5/DUOC-LOGO-1.png" alt="DUOC-LOGO-1" width="250">
+    </a>
+    <!-- <ion-title style="font-size: large; font-weight: bold;" >
+      <a style="color: #f9b21b">Duoc </a><a style="color: white;">GYM</a>
+    </ion-title> -->
+    <ion-avatar slot="end">
+      <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg"/>
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <br><br><br>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col size="12" size-sm="12"  size-md="12" size-lg="10" size-xl="8">
+        <img src="https://cdn.discordapp.com/attachments/894737974602919936/1090283443121832006/ejercicios-basicos-de-gimnasio.webp" />
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+
+      <ion-col size="6"><ion-button>Ver Planes</ion-button></ion-col>
+      <ion-col size="4"><ion-button href="/login">Info. GYM</ion-button></ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
 </ion-content>
+
+
+
+
+
+
+<!-- <ion-toolbar class="ion-text-center">
+  <ion-title style="font-size: xx-large;" >
+    <a style="color: white;">Registr</a><a style="color: #ffb800">App</a>
+  </ion-title>
+</ion-toolbar>
+<ion-content fullscreen="true">
+<form action="POST" >
+  <ion-grid>
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col size="12" size-sm="12" size-md="10" size-lg="8" size-xl="6">
+        <ion-card>
+          <ion-card-title class="ion-text-center">
+            <h1>Bienvenido!</h1>
+          </ion-card-title>
+          <ion-card-content>
+            <ion-item>
+              <ion-label position="floating"> Nombre de usuario </ion-label>
+              <ion-input formControlName="username" ></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating"> Contraseña </ion-label>
+              <ion-input formControlName="password" type="password" ></ion-input>
+            </ion-item>
+            <ion-button color="warning" expand="full" type="submit"> Iniciar Sesion</ion-button>
+            <ion-button fill="clear" expand="full" > Recuperar Contraseña</ion-button>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+</form>
+</ion-content> -->
